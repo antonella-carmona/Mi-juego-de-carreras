@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#pista {
+    height: 350px;
+    background: url(https://github.com/logiccamp/jquery-car-racing/blob/sample/img/road.png?raw=true) repeat-x;
+    width: 100%;
+    position: relative;
+    
+}
+
+#pista img {
+    position: relative;
+    display: block;
+    height: 120px;
+    object-fit: contain;
+}
+
+#pista #autoRojo {
+    top: 15px;
+    transition: .5s;
+
+}
+#pista #autoAzul {
+    top: 80px;
+    transition: .5s;
+
+}
+
+.boton {
+    font-size: 150%;
+    font-family: 'Press Start 2P';
+    border: 2px solid black;
+    color:rgb(0, 0, 0);
+    -webkit-text-stroke: 1px black;
+    padding-top:1%; 
+    padding-bottom:1%;
+    background-color: rgb(81, 81, 81);
+
+}
+
+#star {
+    border: 3px solid rgb(25, 16, 26);
+    width: 300px;
+    height: auto;
+    /* display: flex; */
+    background-color: rgb(245, 240, 240);
+    border-radius: 10%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+body {
+    background-color: rgb(4, 50, 9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 100vh;
+    font-family: 'Montserrat';
+    color: aliceblue;
+}
+
